@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom mt-2">
+      <div class="container-xxl">
+        <a class="navbar-brand" href="#">❤️</a>
+        <span id="element"></span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse d-flex justify-content-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="#">Pro</a>
+            <a class="nav-link" href="#">Teams</a>
+            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">Documentation</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- --------------------------------------------- -->
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-xxl d-flex justify-content-between">
+        <a class="navbar-brand"
+          ><img
+            src="image/resim_2024-01-03_191152649-removebg-preview.png"
+            width="100"
+            alt=""
+        /></a>
+
+        <form class="d-flex w-75" role="search">
+          <input
+            class="form-control rounded-0"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn button btn-dark rounded-0" type="submit">
+            Search
+          </button>
+        </form>
+
+        <form class="d-flex" role="search">
+          <button
+            class="btn button btn-light border rounded-0 mx-1 w-100 button"
+            id="form-open"
+            type="submit"
+          >
+            Login
+          </button>
+          <button class="btn button btn-light rounded-0 mx-1 w-100" type="submit" id="form-open2">
+            Sign In
+          </button>
+        </form>
+      </div>
+    </nav>
+    <!-------------------------------------------------  -->
+    <!-- Form 1 -->
+    <div id="myModal" class="modal">
+      <div class="modal-content one">
+        <span class="close">&times;</span>
+        
+        <h2 class="login-h2">Login</h2>
+        <form class="myform">
+         
+          <input class="inpt" type="text" placeholder="Username" required />
+          <input class="inpt" type="password" placeholder="Password" required />
+          
+          <div class="option_field">
+            <span class="checkbox">
+                <input type="checkbox" id="check">
+                <label for="check" class="forgot_pw">Remember me</label>
+            </span>
+            <a href="#" class="forgot_pw">Forgot password</a>
+          </div>
+          
+          <button class="login-btn" type="submit">Login</button>
+          
+          <div class="login_signup">
+            don't have an account ? <a href="#" id="signup">Sign In</a>
+        </div>
+        </form>
+      </div>
+    </div>
+
+  <!-- Form 2 -->
+    <div id="myModal2" class="modal2">
+      <div class="modal-content2 one">
+        <span class="close2">&times;</span>
+    
+        <h2 class="login-h22">Sign In</h2>
+        <form class="myform2">
+         
+          <input class="inpt2" type="text" placeholder="Username" required />
+          <input class="inpt2" type="email" placeholder="Email" required />
+
+          <input class="inpt2" type="password" placeholder="Password" required />
+          <input class="inpt2" type="password" placeholder="Password" required />
+   
+          <button class="login-btn2" type="submit">Login</button>
+          
+          <div class="login_signup2">
+            Already have an account ?  <a href="#" id="signup2">Login</a>
+        </div>
+        </form>
+      </div>
+    </div>
+
+    <!-------------------------------------------------  -->
+    <div class="container-fluid home">
+      <div class="pt-5 home2">
+        
+          <h2 class="text-center text-light display-1 ">Build amazing things</h2>
+
+          <p class="text-center text-light font mt-5 ">
+            We're GitHub, the company behind the npm Registry and npm CLI. We
+            offer those to the community for free, but our day job is building and
+            selling useful tools for developers like you.
+          </p>
+          <h2 class="text-center text-light mt-5 ">Take your JavaScript</h2>
+          <h2 class="text-center text-light media">development up a notch</h2>
+          <p class="text-center text-light font mt-5 ">
+            Get started today for free, or step up to npm Pro to enjoy a premium
+            JavaScript development experience, with features like private
+            packages.
+          </p>
+  
+          <div class="d-flex justify-content-center mt-5 ">
+            <button class="mx-2 btn-home ">Sign up for free</button>
+            <button class="mx-2 btn-home2 ">Learn about Pro</button>
+          </div>
+        
+       
+      </div>
+    </div>
+    <!-------------------------------------------------  -->
+    <div class="container-fluid home3 border-bottom">
+      <div class="obj d-flex justify-content-center">
+        <img src="image/ck3uweazy72ye8874y9kkxnx1-gak.png" alt="" />
+      </div>
+      <div class="pt-5 home2">
+        <h2 class="text-center">
+          Bring the best of open source to you, your team, and your company
+        </h2>
+        <p class="mt-5 text-center">
+          Relied upon by more than 17 million developers worldwide, npm is
+          committed to making JavaScript development elegant, productive, and
+          safe. The free npm Registry has become the center of JavaScript code
+          sharing, and with more than two million packages, the largest software
+          registry in the world. Our other tools and services take the Registry,
+          and the work you do around it, to the next level.
+        </p>
+      </div>
+    </div>
+    <!-------------------------------------------------  -->
+    <div class="container-fluid bg-light px-5">
+      <footer
+        class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mb-2 border-top "
+      >
+        <div class="col coll mb-3">
+          <a href=""
+            ><img
+              src="image/resim_2024-01-03_215152842-removebg-preview.png"
+              width="100"
+              class="img"
+              alt=""
+          /></a>
+          <a href=""
+            ><img
+              src="image/resim_2024-01-03_191152649-removebg-preview.png"
+              width="100"
+              class="img"
+              alt=""
+          /></a>
+        </div>
+
+        <div class="col mb-3 "></div>
+
+        <div class="col mb-3 ">
+          <h5>Support</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col mb-3 ">
+          <h5>Company</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col mb-3 ">
+          <h5>Terms & Policies</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <!-------------------------------------------------  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!-- ----------------------------------------------- -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="app.js"></script>
+    <!-- ----------------------------------------------- -->
+  </body>
+</html>
