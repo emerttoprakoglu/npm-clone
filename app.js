@@ -7,6 +7,7 @@ var typed = new Typed('#element', {
 
 
   function openForm() {
+    
     if (document.getElementById("myModal")) {
       document.getElementById("myModal").style.display = "block";
     }
